@@ -1,7 +1,4 @@
 #include<iostream>
-#include<vector>
-#include<algorithm>
-
 using namespace std;
 
 
@@ -255,79 +252,5 @@ int main()
 		cout<<"You've Entered Wrong Choice\n\n";
 
 
-	return 0;
+	return 0
 }
-
-
-
-
-
-
-
-	// vector<int> A;
-	// int x;
-	// cout<<"Enter elements of array = ";
-	// for(int i=0;i<5;i++)
-	// {
-	// 	cin>>x;
-	// 	A.push_back(x);
-	// }
-
-	// // cout<<"Length Vector Elements is = "<<A.size()<<endl;
-
-	// cout<<"Vector Elements are = ";
-	
-	// sort(A.begin(),A.end());
-
-	// A.push_back(6);
-
-	// for(int x : A)
-	// {
-	// 	cout<<x<<" ";
-	// }
-	// cout<<endl;
-	// int q;
-	// cout<<"enter element to be searched = ";
-	// cin>>q;
-	// bool y = binary_search(A.begin(),A.end(),q);
-	// if(y == true)
-	// {
-	// 	cout<<"Element is found....\n";
-	// }
-	// else
-	// 	cout<<"Element is not found...\n";
-
-	// vector<int> arr;
-	// int n,x;
-	// cout<<"Enter size of vector = ";
-	// cin>>n;
-	// cout<<"Enter elements of vector = ";
-	// for(int i=0;i<n;i++)
-	// {
-	// 	cin>>x;
-	// 	arr.push_back(x);
-	// }
-
-	// for(int i=1;i<n;i++)
-	// {
-	// 	int key = arr[i];
-	// 	int j =i-1;
-	// 	while(j>=0 && arr[j] >= arr[key])
-	// 	{
-	// 		arr[j+1] = arr[j];
-	// 		j = j-1;
-	// 	}
-
-	// 	arr[j+1] = key;
-	// }
-
-	// cout<<"Sorted vector is = ";
-	// // for(int x:arr)
-	// // {
-	// // 	cout<<x<<" ";
-	// // }
-	// for(int i=0;i<n;i++)
-	// {
-	// 	cout<<arr[i]<<" ";
-	// }
-	// cout<<endl<<endl;
