@@ -13,6 +13,8 @@ void print(int arr[], int n)
 
 }
 
+/////////////////// Insertion Sort Code  ///////////////////////
+
 void ins_sort(int arr[], int n)
 {
 	for(int i = 1;i<n;i++)
@@ -28,6 +30,12 @@ void ins_sort(int arr[], int n)
 	}
 	print(arr,n);
 }
+
+////////////////////  Insertion Sort code ends  ////////////////////
+
+
+
+//////////////////  Selection Sort starts   ///////////////////////
 
 void sel_sort(int arr[], int n)
 {
@@ -52,6 +60,12 @@ void sel_sort(int arr[], int n)
 	print(arr,n);
 }
 
+////////////////  Selection Sort ends  //////////////////////////
+
+
+
+////////////////  Bubble Sort starts  ///////////////////////////
+
 void bub_sort(int arr[],int n)
 {
 	for(int i=0;i<n-1;i++)
@@ -68,6 +82,10 @@ void bub_sort(int arr[],int n)
 	}
 	print(arr,n);
 }
+
+/////////////////  Bubble Sort ends  /////////////////////////////
+
+
 
 //////////////// Merge_sort code starts   ///////////////////////////////
 
@@ -121,14 +139,12 @@ void Merge_sort(int arr[], int beg, int end)
 		merge(arr,beg,mid,end);
 	}
 }
+////////////////// Merge sort code ends   //////////////////////////
 
-
-////////////////// Merge sort code ends   ///////////////////////////////
 
 
 
 ////////////// Quick sort starts   ///////////////////////////////
-
 
 int find_pivot(int arr[], int beg, int end)
 {
@@ -166,8 +182,9 @@ void Quick_Sort(int arr[], int p,int r)
 
 
 
-////////////////  Heap Sort starts   //////////////////////////////
 
+
+////////////////  Heap Sort starts   //////////////////////////////
 
 void Build_max_heap(int arr[],int n,int i)
 {
