@@ -30,6 +30,20 @@ void insert(int value)
 }
 
 
+void reverse(struct node* ptr)
+{  
+  if(ptr->next == NULL)
+  {
+    head = ptr;
+    return;
+  }
+  reverse_list(ptr->next);
+  struct node* q = ptr->next;
+  q->next = ptr;
+  ptr->next = NULL;
+}
+
+
 void traverse()
 {
     struct node* ptr = head;
@@ -41,17 +55,6 @@ void traverse()
     cout<<endl;
 }
 
-void reverse(struct node* ptr)
-{
-  if(ptr == NULL)
-  {
-    cout<<"\n";
-    return;
-  }
-  reverse(ptr->next);
-  cout<<"["<<ptr->data<<"] -> ";
-
-}
 
 int main()
 {
@@ -78,6 +81,7 @@ int main()
     else if(ch == 2)
     {
       reverse(head);
+      traverse();
     }
     else
       cout<<"You've entered wrong choice";
