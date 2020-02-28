@@ -1,2 +1,3 @@
 # Programs
-This repository contains programs that are written in proper structure and syntax.
+This repository consists of different variety of programs
+These programs are written in C++
