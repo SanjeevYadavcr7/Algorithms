@@ -1,3 +1,3 @@
 # Programs
-The repository consists of different variety of programs.
-These programs are written in C++
+Respository contains important algorithms and their respective programs.
+Programming Lnaguage: C++
